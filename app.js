@@ -66,12 +66,12 @@ function animateBlocks(animation) {
 			
 			switch(animation) {
 				case 'fall': {
-					block.style.transitionDelay = Math.random() * 1000 + 'ms';
+					block.style.transitionDelay = Math.random() * 2000 + 'ms';
 					break;
 				}
 					
 				case 'random': {
-					block.style.transitionDelay = Math.random() * 1000 + 'ms';
+					block.style.transitionDelay = Math.random() * 2000 + 'ms';
 					break;
 				}
 					
@@ -81,7 +81,7 @@ function animateBlocks(animation) {
 				}
 					
 				case 'middle': {
-					block.style.transitionDelay = (i * BLOCKS_NR + j ) * 20 + 'ms';
+					block.style.transitionDelay = (i * BLOCKS_NR + j ) * 50 + 'ms';
 					break;
 				}
 			}
